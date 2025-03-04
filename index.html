@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid bg-primary ">
+            <a class="navbar-brand text-white" href="#">Bake</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-white" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button type="button" class="btn btn-primary position-relative">
+                        Profile
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                            <span class="visually-hidden">New alerts</span>
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- carousel -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- card -->
+    <div class="setcard d-flex flex-wrap justify-content-center overflow-auto">
+        <div class="card m-4" style="width: 18rem;">
+            <img src="10.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Eggless Vanila Cake</h5>
+                <p class="card-text">"A rich, velvety, and fluffy eggless vanilla cake, infused with the sweetness of
+                    pure vanilla and a hint of creamy butteriness." </p>
+                <a href="#" class="btn btn-primary">Add</a>
+            </div>
+        </div>
+        <div class="card m-4" style="width: 18rem;">
+            <img src="11.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Minimalist Bloom Cake</h5>
+                <p class="card-text">This is a beautifully minimalist cake with smooth white frosting, decorated with
+                    delicate pink buttercream roses, green leaves, and small gold accents, creating a charming floral
+                    garden effect.</p>
+                <a href="#" class="btn btn-primary">Add</a>
+            </div>
+        </div>
+        <div class="card m-4" style="width: 18rem;">
+            <img src="12.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Naked Carrot Cake</h5>
+                <p class="card-text">layered naked carrot cake with piped cream cheese frosting, decorated with tiny
+                    buttercream carrots and green leaves for a rustic yet elegant look. </p>
+                <a href="#" class="btn btn-primary">Add</a>
+            </div>
+        </div>
+        <div class="card m-4" style="width: 18rem;">
+            <img src="13.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Daisy Cake</h5>
+                <p class="card-text">This is a pink daisy cake with smooth pastel pink frosting, decorated with piped
+                    white and yellow buttercream daisies, giving it a charming and playful look. </p>
+                <a href="#" class="btn btn-primary">Add</a>
+            </div>
+        </div>
+        <div class="card m-4" style="width: 18rem;">
+            <img src="14.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Floral Green Cake</h5>
+                <p class="card-text">This is a botanical-themed cake with soft green frosting, adorned with fresh white
+                    flowers and delicate dried florals, creating a natural and elegant aesthetic. </p>
+                <a href="#" class="btn btn-primary">Add</a>
+            </div>
+        </div>
+        <div class="card m-4" style="width: 18rem;">
+            <img src="15.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Ethereal Butterfly Cake</h5>
+                <p class="card-text">This is a butterfly-themed cake with smooth pastel frosting, delicate pearl
+                    accents, and edible butterflies, creating an elegant and ethereal look. </p>
+                <a href="#" class="btn btn-primary">Add</a>
+            </div>
+        </div>
+        <div class="card m-4" style="width: 18rem;">
+            <img src="16.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Textured Buttercream Flower Cake</h5>
+                <p class="card-text"> This is a palette knife floral cake with textured buttercream flowers and leaves,
+                    giving it a handcrafted and artistic appearance.</p>
+                <a href="#" class="btn btn-primary">Add</a>
+            </div>
+        </div>
+        <div class="card m-4" style="width: 18rem;">
+            <img src="17.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Romantic Rose Cake</h5>
+                <p class="card-text">This is a **"Minimalist Korean-Style Rose Cake"**, featuring a smooth pink
+                    buttercream base with delicate piped rose decorations for an elegant and romantic aesthetic. </p>
+                <a href="#" class="btn btn-primary">Add</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- title -->
+    <div class="card">
+        <div class="card-body m-3 ">
+            <p class="fs-2 fw-semibold">Timeless Classics </p>
+            <h6> Flavours you can count on</h6>
+        </div>
+    </div>
+    <!-- scroll cards -->
+    <div class=" d-flex p-2 g-col-6 overflow-auto">
+        <div class="mx-5"><img src="choc.png" alt="" width="300px">
+            <p class="fs-3 "></p>Chocolate</div>
+        <div class="mx-5"><img src="butter.png" alt="" width="300px">
+            <p class="fs-3">butturscoth</p></div>
+        <div class="mx-5"><img src="vanilla.png" alt="" width="300px" >
+            <p class="fs-3">Vanilla</p></div>
+        <div class="mx-5"><img src="mango.png" alt="" width="300px">
+            <p class="fs-3 ">mango</p></div>
+        <div class="mx-5"><img src="black.png" alt="" width="300px">
+            <p class="fs-3">Black Forest</p></div>
+        <div class="mx-5"><img src="oreo.png" alt="" width="300px" >
+            <p class="fs-3">Oreo</p></div>
+        <div class="mx-5"><img src="red.png" alt="" width="300px">
+            <p class="fs-3">Red Velvet</p></div>
+        <div class="mx-5"><img src="dryfruit.png" alt="" width="300px" >
+            <p class="fs-3">Dry Fruits</p></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
